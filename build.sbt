@@ -18,7 +18,7 @@ lazy val root = project.in(file("."))
         "com.typesafe.play" %% "play" % "2.8.8" % "provided",
         "com.typesafe.play" %% "play-guice" % "2.8.8" % Test,
         "com.typesafe.play" %% "play-test" % "2.8.8" % Test,
-        "org.scalatest" %% "scalatest" % "3.2.7" % Test
+        "org.scalatest" %% "scalatest" % "3.2.8" % Test
       ),
       wartremoverErrors ++= Warts.unsafe,
       scalariformPreferences := scalariformPreferences.value
