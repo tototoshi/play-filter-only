@@ -15,9 +15,9 @@ lazy val root = project.in(file("."))
       crossScalaVersions := Seq("2.12.8", "2.13.6"),
       scalacOptions := Seq("-deprecation", "-feature", "-unchecked", "-Xlint"),
       libraryDependencies ++= Seq(
-        "com.typesafe.play" %% "play" % "2.8.9" % "provided",
-        "com.typesafe.play" %% "play-guice" % "2.8.9" % Test,
-        "com.typesafe.play" %% "play-test" % "2.8.9" % Test,
+        "com.typesafe.play" %% "play" % "2.8.11" % "provided",
+        "com.typesafe.play" %% "play-guice" % "2.8.11" % Test,
+        "com.typesafe.play" %% "play-test" % "2.8.11" % Test,
         "org.scalatest" %% "scalatest" % "3.2.10" % Test
       ),
       wartremoverErrors ++= Warts.unsafe,
