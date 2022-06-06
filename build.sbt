@@ -15,10 +15,10 @@ lazy val root = project.in(file("."))
       crossScalaVersions := Seq("2.12.8", "2.13.6"),
       scalacOptions := Seq("-deprecation", "-feature", "-unchecked", "-Xlint"),
       libraryDependencies ++= Seq(
-        "com.typesafe.play" %% "play" % "2.8.13" % "provided",
-        "com.typesafe.play" %% "play-guice" % "2.8.13" % Test,
-        "com.typesafe.play" %% "play-test" % "2.8.13" % Test,
-        "org.scalatest" %% "scalatest" % "3.2.12" % Test
+        "com.typesafe.play" %% "play" % "2.8.16" % "provided",
+        "com.typesafe.play" %% "play-guice" % "2.8.16" % Test,
+        "com.typesafe.play" %% "play-test" % "2.8.16" % Test,
+        "org.scalatest" %% "scalatest" % "3.2.11" % Test
       ),
       wartremoverErrors ++= Warts.unsafe,
       scalariformPreferences := scalariformPreferences.value
