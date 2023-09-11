@@ -11,8 +11,8 @@ lazy val root = project.in(file("."))
         url("https://github.com/tkawachi/play-filter-only/"),
         "scm:git:github.com:tkawachi/play-filter-only.git"
       )),
-      scalaVersion := "2.13.6",
-      crossScalaVersions := Seq("2.12.8", "2.13.6"),
+      scalaVersion := "2.13.12",
+      crossScalaVersions := Seq("2.12.8", "2.13.12"),
       scalacOptions := Seq("-deprecation", "-feature", "-unchecked", "-Xlint"),
       libraryDependencies ++= Seq(
         "com.typesafe.play" %% "play" % "2.8.16" % "provided",
